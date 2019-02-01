@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="	#FAF0E6">
+<style>
+h1 {
+    text-shadow: 3px 3px 	#6495ED;
+}
+</style>
+
+<h1 style="font-size:350%">Share your story with us :) </h1>
+<p style="font-size:130%">If your life has been impacted as a result of blood donations then we want to hear from you. Help spread the word about the importance of blood donation and share your story.
+Simply fill out the form below.We even included a section where you can upload a photo. We will review your story before it appears on the website.</p> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: grey;
+}
+
+.container {
+    border-radius: 5px;
+    background-color:	#FAF0E6;
+    padding: 20px;
+}
+</style>
+</head>
+
+<div class="container">
+  <form action="/pictures.html" METHOD="GET" target="_blank">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="name" placeholder="Your name">
+
+    <label for="lname">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your Email ">
+
+    <label for="number">Contact Number</label>
+    <input type="text" id="contact number" name="contact number" placeholder="Your Contact Details">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="india">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="australia">Australia</option>
+      <option value="ireland">Ireland</option>
+      <option value="africa">Africa</option>
+    </select>
+   
+ 
+
+    <label for="subject">Share your Story</label>
+    <textarea id="subject" name="subject" placeholder="Share your story with us.." style="height:200px"></textarea>
+
+     Attach Pictures: <input type="file" name="pic" accept="image/*">
+</br>
+</br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+
+
+</body>
+</html>
